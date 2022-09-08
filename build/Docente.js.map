@@ -1,0 +1,1 @@
+{"version":3,"file":"Docente.js","sourceRoot":"","sources":["../src/Docente.ts"],"names":[],"mappings":";;;AAAA,qCAA+B;AAE/B,MAAa,OAAQ,SAAQ,eAAM;IAE/B,YACI,EAAmB,EACnB,IAAY,EACZ,KAAa,EACb,SAAiB,EACjB,QAAyB,EACzB,cAAsB;QAExB,KAAK,CAAC,EAAE,EAAE,IAAI,EAAE,KAAK,EAAE,SAAS,EAAE,QAAQ,CAAC,CAAA;QACzC,IAAI,CAAC,cAAc,GAAG,cAAc,CAAA;IACxC,CAAC;CACJ;AAbD,0BAaC"}
