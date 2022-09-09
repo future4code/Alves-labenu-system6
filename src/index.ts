@@ -1,7 +1,9 @@
-import {Turma} from "./Turma"
-import { Docente } from "./Docente"
-import { Estudante } from "./Estudante"
+import {app} from "./app"
+import {CriaTurma} from "./endpoints/Turma/CriaTurma"
+import {CriaEstudante} from "./endpoints/Estudante/CriaEstudante"
+import {CriaDocente} from "./endpoints/Docente/CriaDocentes"
 
 
-const turma = new Turma(1, "Maria José", [], [], 0)
-console.log(turma)
+app.post("/turma", CriaTurma)
+app.post("/estudante", CriaEstudante)
+app.post("/docente", CriaDocente)

@@ -3,7 +3,7 @@ import {Pessoa} from './Pessoa'
 export class Docente extends Pessoa{
     especialidades: string
     constructor( 
-        id: string | number, 
+        id: string, 
         nome: string,
         email: string, 
         data_nasc: string, 
