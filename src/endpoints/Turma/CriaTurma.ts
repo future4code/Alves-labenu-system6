@@ -5,8 +5,13 @@ export const CriaTurma = async (req: Request, res: Response): Promise <void> => 
     try {
         
         const {id, nome, modulo} = req.body
-      
 
+        if(!id ||  !nome || !modulo){
+            res.statusCode = 400
+ 
+             throw new Error ("Os dados devem ser passados corretamente!")
+         }
+      
         await connection("Turma")
             .insert({id, nome, modulo})
 
